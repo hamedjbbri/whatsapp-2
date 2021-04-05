@@ -26,7 +26,7 @@ function Chat({ id, users }) {
             ) : ( 
             <UserAvatar>{recipientEmail[0]}</UserAvatar>
             )}
-          
+            
             <p>{recipientEmail}</p>
         </Container>)
     }
